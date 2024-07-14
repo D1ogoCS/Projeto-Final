@@ -1,6 +1,5 @@
 # Projeto Final
 ## Implementação de mecanismos de autenticação e segurança em aplicações críticas: Caso de estudo - Sistema de gestão bancária
-https://github.com/D1ogoCS/Projeto-Final/blob/main/LICENSE
 
 No meu projeto final de curso, realizei um caso de estudo/protótipo de um sistema de gestão bancária, com o objetivo de criar uma base de dados, uma aplicação de gestão e uma aplicação Web.
 
@@ -44,3 +43,7 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 - Windows Forms.
 - ASP .NET;
 - .NET Framework;
+
+## Resultados:
+
+
