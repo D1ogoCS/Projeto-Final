@@ -46,5 +46,10 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 
 ## Resultados:
 
+### Web Service SOAP
+![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
+
+### Palavras-passe codificadas em hash
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
-Palavras-passe codificadas em hash
+
+
