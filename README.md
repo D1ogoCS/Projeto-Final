@@ -46,4 +46,5 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 
 ## Resultados:
 
-
+![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
+Palavras-passe codificadas em hash
