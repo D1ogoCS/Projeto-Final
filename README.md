@@ -3,7 +3,7 @@
 
 No meu projeto final de curso, realizei um caso de estudo/protótipo de um sistema de gestão bancária, com o objetivo de criar uma base de dados, uma aplicação de gestão e uma aplicação Web.
 
-Aqui está apenas descrito os objetivos do projeto, temas aborados, funcionalidades, ferramentas utilizadas, tecnologias utilizadas e os resultados práticos obtidos. 
+Aqui estão apenas descrito os objetivos do projeto, temas aborados, funcionalidades, ferramentas utilizadas, tecnologias utilizadas e os resultados práticos obtidos. 
 
 ### Objetivos do projeto:
 
@@ -83,7 +83,7 @@ Aqui está apenas descrito os objetivos do projeto, temas aborados, funcionalida
 - ASP .NET
 - .NET Framework
 
-## Resultados:
+### Resultados:
 
 ### 1. Serviços Web
 Os serviços Web (ou Web services) são métodos que permitem a comunicação entre diferentes sistemas através da Web.
