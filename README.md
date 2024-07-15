@@ -167,6 +167,7 @@ O gestor pode visualizar todos os clientes que estão registados no sistema. É 
 *Janela "Ver Clientes"*
 
 O gestor pode pesquisar um cliente na barra de pesquisa através do NIF (Número de Identificação Fiscal).
+
 Para o gestor conseguir visualizar os dados de um cliente em específico, necessita de clicar no botão __Ver detalhes__ da tabela de clientes. Em seguida, é exibida uma janela com todas as informações pessoais do cliente, documentos pessoais e outros dados.
 
 ![Janela com as informações do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaInfoCliente.png)
@@ -181,4 +182,13 @@ Para o gestor conseguir visualizar os dados de um cliente em específico, necess
 
 *Outros dados do cliente*
 
+#### 3.4 Registar novo cliente
+
+![Janela “Adicionar cliente”](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAdicionarCliente.png)
+
+*Janela “Adicionar cliente”*
+
+![Campos obrigatórios que não foram preenchidos](https://github.com/D1ogoCS/Projeto-Final/blob/main/erroAdicionarCliente.png)
+
+*Campos obrigatórios que não foram preenchidos*
 
