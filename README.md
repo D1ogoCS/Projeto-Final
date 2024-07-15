@@ -173,11 +173,11 @@ Para o gestor conseguir visualizar os dados de um cliente em específico, necess
 
 *Janela com as informações do cliente*
 
-![Tabela com os documentos pessoais do cliente]()
+![Tabela com os documentos pessoais do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/docsCliente.png)
 
 *Tabela com os documentos pessoais do cliente*
 
-![Outros dados do cliente]()
+![Outros dados do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/outrasInfoCliente.png)
 
 *Outros dados do cliente*
 
