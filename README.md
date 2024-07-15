@@ -57,6 +57,12 @@ SOAP (Simple Object Access Protocol): Utiliza XML (Extensible Markup
 Language) para enviar mensagens e geralmente usa o protocolo HTTP para 
 transportar dados. O SOAP define um padrão de protocolo de comunicação 
 para a troca de mensagens realizadas em XML entre o cliente e o servidor.
+
+Os serviços Web possuem as seguintes vantagens:
+- __Integração de informações e sistemas:__ Os serviços Web simplificam a comunicação entre sistemas e aplicações.
+- __Reutilização de sistemas existentes:__ Permitem adicionar funcionalidades a sistemas já existentes sem criar tudo do zero.
+
+Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo que a aplicação de gestão possa utilizar esses métodos.
 ##### Web Service SOAP
 ![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
 
