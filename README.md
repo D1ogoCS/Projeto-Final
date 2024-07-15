@@ -53,7 +53,7 @@ Os serviços Web são API’s (Application Programming Interface) que se comunic
 
 Os serviços Web não são aplicações Web, apenas transmitem informações entre sistemas.
 
-SOAP (Simple Object Access Protocol): Utiliza XML (Extensible Markup 
+__SOAP (Simple Object Access Protocol):__ Utiliza XML (Extensible Markup 
 Language) para enviar mensagens e geralmente usa o protocolo HTTP para 
 transportar dados. O SOAP define um padrão de protocolo de comunicação 
 para a troca de mensagens realizadas em XML entre o cliente e o servidor.
@@ -78,9 +78,14 @@ Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” 
 
 ### 3. Aplicação de gestão
 Uma aplicação standalone é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
+
 O protótipo da aplicação foi desenvolvido com a utilização do Windows Forms, que é projetado para ser executado em sistemas operativos Windows. 
+
 Oferece uma interface gráfica que permite aos utilizadores interagirem com a aplicação de forma intuitiva.
-A aplicação de gestão é utilizada apenas pelos gestores e administradores. O gestor realiza diversas atividades no sistema, como a manutenção das contas bancárias e dos produtos dos clientes.
+
+A aplicação de gestão é utilizada apenas pelos gestores e administradores. 
+
+O gestor realiza diversas atividades no sistema, como a manutenção das contas bancárias e dos produtos dos clientes.
 O administrador pode realizar as mesmas atividades do gestor e ainda pode fazer a administração dos gestores do sistema.
 
 ![Aplicação de gestão](https://github.com/D1ogoCS/Projeto-Final/blob/main/aplicacaoGestao.png)
