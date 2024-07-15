@@ -63,17 +63,63 @@ Os serviços Web possuem as seguintes vantagens:
 - __Reutilização de sistemas existentes:__ Permitem adicionar funcionalidades a sistemas já existentes sem criar tudo do zero.
 
 Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo que a aplicação de gestão possa utilizar esses métodos.
-##### Web Service SOAP
+
 ![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
+
+*Web Service SOAP*
+
 
 ### 2. Segurança na base de dados
 Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” e na tabela "Credenciais" da base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
-##### Palavras-passe codificadas em hash
+
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
+
+*Palavras-passe codificadas em hash através do algoritmo SHA-256*
 
 ### 3. Aplicação de gestão
 Uma aplicação standalone é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
 O protótipo da aplicação foi desenvolvido com a utilização do Windows Forms, que é projetado para ser executado em sistemas operativos Windows. 
 Oferece uma interface gráfica que permite aos utilizadores interagirem com a aplicação de forma intuitiva.
+A aplicação de gestão é utilizada apenas pelos gestores e administradores.
+#### 3.1 Adicionar um serviço Web
+A aplicação de gestão executa alguns serviços Web. Para adicionar os serviços Web à aplicação, foi necessário executar os passos a seguir:
 
+1 - No gestor de soluções do Visual Studio, é necessário clicar com o botão direito do rato em __Connected Services__ e de seguida em __Adicionar Referência de Serviço__.
 
+![Gestor de soluções do Visual Studio](https://github.com/D1ogoCS/Projeto-Final/blob/main/gestorDeSolucoes.png)
+
+*Gestor de soluções do Visual Studio*
+
+![Adicionar Referência de Serviço](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarReferencia.png)
+
+*Adicionar referência de serviço no Visual Studio*
+
+2 - Por fim, é necessário configurar o endereço do serviço na janela de Adicionar Referência de Serviço e clicar no botão __Ok__.
+
+![Configurar o serviço Web no Visual Studio](https://github.com/D1ogoCS/Projeto-Final/blob/main/configurarServico.png)
+
+*Configurar o serviço Web no Visual Studio*
+
+#### 3.2 Atenticação
+Quando a aplicação é executada, a janela de autenticação é exibida para que o utilizador possa introduzir as suas credenciais e entrar na aplicação.
+
+![Janela de autenticação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAutenticacao.png)
+
+*Janela de autenticação*
+
+Para o utilizador entrar na aplicação, necessita introduzir o seu nome de utilizador e a sua palavra-passe e depois clicar no botão __Entrar__
+
+![Introdução das credenciais na janela de autenticação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAutenticacao2.png)
+
+*Introdução das credenciais na janela de autenticação*
+
+Se as informações introduzidas pelo o utilizador estiverem corretas, o que indica que as credenciais correspondem a um 
+utilizador que está registado no sistema, a autenticação passa para a etapa a seguir, onde o utilizador deve introduzir o código de autenticação de dois fatores associado à sua conta
+
+![Janela para introduzir código de autenticação de dois fatores](https://github.com/D1ogoCS/Projeto-Final/blob/main/2FA.png)
+
+*Janela para introduzir código de autenticação de dois fatores*
+
+![Introdução do código de autenticação de dois fatores](https://github.com/D1ogoCS/Projeto-Final/blob/main/introducao2FA.png)
+
+*Introdução do código de autenticação de dois fatores*
