@@ -46,7 +46,7 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 
 ## Resultados:
 
-### Serviços Web
+### 1. Serviços Web
 Os serviços Web (ou Web services) são métodos que permitem a comunicação entre diferentes sistemas através da Web.
 
 Os serviços Web são API’s (Application Programming Interface) que se comunicam por meio de redes e podem ser combinados para executar operações complexas. Utilizam principalmente o protocolo HTTP (Hyper Text Transfer Protocol), protocolo de comunicação responsável pela transferência de dados entre sistemas.
@@ -66,9 +66,14 @@ Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo 
 ##### Web Service SOAP
 ![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
 
-### Segurança na base de dados
+### 2. Segurança na base de dados
 Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” e na tabela "Credenciais" da base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
 ##### Palavras-passe codificadas em hash
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
+
+### 3. Aplicação de gestão
+Uma aplicação standalone é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
+O protótipo da aplicação foi desenvolvido com a utilização do Windows Forms, que é projetado para ser executado em sistemas operativos Windows. 
+Oferece uma interface gráfica que permite aos utilizadores interagirem com a aplicação de forma intuitiva.
 
 
