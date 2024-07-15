@@ -107,14 +107,14 @@ Quando a aplicação é executada, a janela de autenticação é exibida para qu
 
 *Janela de autenticação*
 
-Para o utilizador entrar na aplicação, necessita introduzir o seu nome de utilizador e a sua palavra-passe e depois clicar no botão __Entrar__
+Para o utilizador entrar na aplicação, necessita introduzir o seu nome de utilizador e a sua palavra-passe e depois clicar no botão __Entrar__.
 
 ![Introdução das credenciais na janela de autenticação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAutenticacao2.png)
 
 *Introdução das credenciais na janela de autenticação*
 
 Se as informações introduzidas pelo o utilizador estiverem corretas, o que indica que as credenciais correspondem a um 
-utilizador que está registado no sistema, a autenticação passa para a etapa a seguir, onde o utilizador deve introduzir o código de autenticação de dois fatores associado à sua conta
+utilizador que está registado no sistema, a autenticação passa para a etapa a seguir, onde o utilizador deve introduzir o código de autenticação de dois fatores associado à sua conta.
 
 ![Janela para introduzir código de autenticação de dois fatores](https://github.com/D1ogoCS/Projeto-Final/blob/main/2FA.png)
 
@@ -123,3 +123,12 @@ utilizador que está registado no sistema, a autenticação passa para a etapa a
 ![Introdução do código de autenticação de dois fatores](https://github.com/D1ogoCS/Projeto-Final/blob/main/introducao2FA.png)
 
 *Introdução do código de autenticação de dois fatores*
+
+Quando o utilizador introduz o código de autenticação de dois fatores e clica novamente no botão __Entrar__, o código introduzido é verificado por um algoritmo de autenticação de dois fatores da biblioteca “Google.Authenticator”, que oferece métodos para gerar códigos de verificação e verificar a autenticidade dos códigos introduzidos pelo utilizador.
+
+A biblioteca “Google.Authenticator” é gratuita e necessita de ser instalada a partir do 
+gestor NuGet presente no Visual Studio (https://www.nuget.org/packages/GoogleAuthenticator/3.2.0). 
+
+A biblioteca funciona em conjunto com a aplicação Google Authenticator para dispositivos móveis. O Google Authenticator é uma ferramenta gratuita para autenticação de dois fatores,que gera códigos temporários que são usados em combinação com a palavra-passe para adicionar uma camada extra de segurança à autenticação (https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid).
+
+
