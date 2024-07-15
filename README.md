@@ -66,7 +66,9 @@ Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo 
 ##### Web Service SOAP
 ![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
 
-### Palavras-passe codificadas em hash
+### Segurança na base de dados
+Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” e na tabela "Credenciais" da base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
+##### Palavras-passe codificadas em hash
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
 
 
