@@ -3,46 +3,85 @@
 
 No meu projeto final de curso, realizei um caso de estudo/protótipo de um sistema de gestão bancária, com o objetivo de criar uma base de dados, uma aplicação de gestão e uma aplicação Web.
 
+Aqui está apenas descrito os objetivos do projeto, temas aborados, funcionalidades, ferramentas utilizadas, tecnologias utilizadas e os resultados práticos obtidos. 
+
 ### Objetivos do projeto:
 
-- Análise, avaliação e integração de mecanismos de proteção e segurança (blockchain, criptografia, etc);
-- Desenvolver dois protótipos funcionais que implementem e integrem vários mecanismos de segurança.
+- Análise, avaliação e integração de mecanismos de proteção e segurança (blockchain, criptografia, etc)
+- Desenvolver dois protótipos funcionais que implementem e integrem vários mecanismos de segurança
 
 ### Temas abordados:
 
-- Criptografia e Encriptação;
-- Tecnologia blockchain;
-- Chave Móvel Digital como método de autenticação;
-- Segurança em aplicações criticas;
-- Modelação do sistema - Casos de uso;
-- Diagrama de classes;
-- Modelo de dados;
-- Desenvolver e integrar serviços Web (SOAP);
-- Desenvolver uma aplicação de gestão e uma aplicação Web.
+- Criptografia e Encriptação
+- Tecnologia blockchain
+- Chave Móvel Digital como método de autenticação
+- Segurança em aplicações criticas
+- Modelação do sistema - Casos de uso
+- Diagrama de classes
+- Modelo de dados
+- Desenvolver e integrar serviços Web (SOAP)
+- Desenvolver uma aplicação de gestão e uma aplicação Web
 
 ### Algumas implementações feitas no projeto:
 
-- Relatórios em tempo real através do Report Viewer;
-- Códigos QR em relatórios;
-- Manipulação de ficheiros (documentos) através da aplicação de gestão;
-- Autenticação de dois fatores com a utilização do Google Authenticator;
-- Palavras-passe guardadas na base de dados encriptadas em código hash.
+- Relatórios em tempo real através do Report Viewer
+- Códigos QR em relatórios
+- Manipulação de ficheiros (documentos) através da aplicação de gestão
+- Autenticação de dois fatores com a utilização do Google Authenticator
+- Palavras-passe guardadas na base de dados encriptadas em código hash
+
+### Funcionalidades:
+
+- Registar novo Cliente
+- Alterar estado de um cliente 
+- Alterar dados de um cliente
+- Adicionar documentos
+- Apagar documentos
+- Abrir documentos
+- Editar o nome de um documento 
+- Gestão de certificados
+- Subscrever certificados
+- Gestão de empréstimos
+- Subscrever empréstimos
+- Serviços HomeBanking 
+- Alterar estado do HomeBanking
+- Consultar histórico de atividades do HomeBanking
+- Adicionar titulares
+- Remover titulares
+- Alterar tipo de titularidade 
+- Alterar tipo de conta
+- Visualizar movimentos bancários
+- Visualizar detalhes de uma transação
+- Efetuar transações 
+- Criar contas bancárias 
+- Alterar estado de uma conta
+- Gestão de cartões bancários
+- Renovar cartão bancário
+- Criar novos cartões bancários
+- Visualizar perfil pessoal
+- Visualizar histórico de atividades
+- Alterar palavra-passe
+- Visualizar o perfil de um gestor
+- Repor acesso
+- Excluir e reativar gestores
+- Adicionar um novo gestor
+- etc...
 
 ### Ferramentas utilizadas:
 
-- StarUML;
-- Oracle SQL Developer Data Modeler;
-- Microsoft SQL Server Management Studio 19;
-- Visual Studio 2022 Community Edition.
+- StarUML
+- Oracle SQL Developer Data Modeler
+- Microsoft SQL Server Management Studio 19
+- Visual Studio 2022 Community Edition
 
 ### Tecnologias utilizadas:
 
-- C#;
-- HTML;
-- CSS;
-- Windows Forms.
-- ASP .NET;
-- .NET Framework;
+- C#
+- HTML
+- CSS
+- Windows Forms
+- ASP .NET
+- .NET Framework
 
 ## Resultados:
 
