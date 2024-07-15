@@ -46,7 +46,18 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 
 ## Resultados:
 
-### Web Service SOAP
+### Serviços Web
+Os serviços Web (ou Web services) são métodos que permitem a comunicação entre diferentes sistemas através da Web.
+
+Os serviços Web são API’s (Application Programming Interface) que se comunicam por meio de redes e podem ser combinados para executar operações complexas. Utilizam principalmente o protocolo HTTP (Hyper Text Transfer Protocol), protocolo de comunicação responsável pela transferência de dados entre sistemas.
+
+Os serviços Web não são aplicações Web, apenas transmitem informações entre sistemas.
+
+SOAP (Simple Object Access Protocol): Utiliza XML (Extensible Markup 
+Language) para enviar mensagens e geralmente usa o protocolo HTTP para 
+transportar dados. O SOAP define um padrão de protocolo de comunicação 
+para a troca de mensagens realizadas em XML entre o cliente e o servidor.
+##### Web Service SOAP
 ![Web Service SOAP](https://github.com/D1ogoCS/Projeto-Final/blob/main/webServiceSOAP.png)
 
 ### Palavras-passe codificadas em hash
