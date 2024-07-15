@@ -192,3 +192,16 @@ Para o gestor conseguir visualizar os dados de um cliente em específico, necess
 
 *Campos obrigatórios que não foram preenchidos*
 
+Se necessário, o gestor consegue imprimir um documento com os dados do registo do novo cliente
+
+![Janela para confirmar a impressão do documento](https://github.com/D1ogoCS/Projeto-Final/blob/main/confirmarAdicionarCliente.png)
+
+*Janela para confirmar a impressão do documento*
+
+![Impresso com os dados pessoais do client](https://github.com/D1ogoCS/Projeto-Final/blob/main/folhaDadosPessoais.png)
+
+*Impresso com os dados pessoais do cliente (dados fictícios)*
+
+
+
+
