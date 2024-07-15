@@ -162,7 +162,7 @@ Se for a primeira vez que o utilizador entra na aplicação é exibida uma janel
 #### 3.4 Gestão de clientes
 O gestor pode visualizar todos os clientes que estão registados no sistema. É exibida uma janela que contém uma tabela com todos os clientes registados no sistema.
 
-![Janela "Ver Clientes"]()
+![Janela "Ver Clientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaVerClientes.png)
 
 *Janela "Ver Clientes"*
 
@@ -173,11 +173,11 @@ Para o gestor conseguir visualizar os dados de um cliente em específico, necess
 
 *Janela com as informações do cliente*
 
-![Tabela com os documentos pessoais do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/docsCliente.png)
+![Tabela com os documentos pessoais do cliente]()
 
 *Tabela com os documentos pessoais do cliente*
 
-![Outros dados do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/outrosDadosCliente.png)
+![Outros dados do cliente]()
 
 *Outros dados do cliente*
 
