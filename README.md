@@ -202,6 +202,6 @@ Se necessário, o gestor consegue imprimir um documento com os dados do registo 
 
 *Impresso com os dados pessoais do cliente (dados fictícios)*
 
-
+Os documentos da aplicação são construídos através da biblioteca Microsoft Report Viewer, que oferece diversas ferramentas para o desenvolvimento de relatórios. É uma biblioteca gratuita e necessita de ser instalada a partir do gestor NuGet presente no Visual Studio (https://learn.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver16).
 
 
