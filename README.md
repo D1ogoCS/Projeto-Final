@@ -80,7 +80,13 @@ Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” 
 Uma aplicação standalone é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
 O protótipo da aplicação foi desenvolvido com a utilização do Windows Forms, que é projetado para ser executado em sistemas operativos Windows. 
 Oferece uma interface gráfica que permite aos utilizadores interagirem com a aplicação de forma intuitiva.
-A aplicação de gestão é utilizada apenas pelos gestores e administradores.
+A aplicação de gestão é utilizada apenas pelos gestores e administradores. O gestor realiza diversas atividades no sistema, como a manutenção das contas bancárias e dos produtos dos clientes.
+O administrador pode realizar as mesmas atividades do gestor e ainda pode fazer a administração dos gestores do sistema.
+
+![Aplicação de gestão](https://github.com/D1ogoCS/Projeto-Final/blob/main/aplicacaoGestao.png)
+
+*Aplicação de gestão*
+
 #### 3.1 Adicionar um serviço Web
 A aplicação de gestão executa alguns serviços Web. Para adicionar os serviços Web à aplicação, foi necessário executar os passos a seguir:
 
@@ -131,4 +137,33 @@ gestor NuGet presente no Visual Studio (https://www.nuget.org/packages/GoogleAut
 
 A biblioteca funciona em conjunto com a aplicação Google Authenticator para dispositivos móveis. O Google Authenticator é uma ferramenta gratuita para autenticação de dois fatores,que gera códigos temporários que são usados em combinação com a palavra-passe para adicionar uma camada extra de segurança à autenticação (https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid).
 
+#### 3.3 Menu
+Após a autenticação do utilizador na aplicação, é apresentado o menu. Existe um menu específico para cada tipo de utilizador.
 
+![Menu dos gestores](https://github.com/D1ogoCS/Projeto-Final/blob/main/menuGestor.png)
+
+*Menu dos gestores*
+
+![Menu dos administradores](https://github.com/D1ogoCS/Projeto-Final/blob/main/menuAdmin.png)
+
+*Menu dos administradores*
+
+Se for a primeira vez que o utilizador entra na aplicação é exibida uma janela solicitando altere a palavra-passe da sua conta.
+
+![Janela para o utilizador alterar a palavra-passe quando faz login pela primeira vez](https://github.com/D1ogoCS/Projeto-Final/blob/main/alterarPassword.png)
+
+*Janela para o utilizador alterar a palavra-passe quando faz login pela primeira vez*
+
+#### 3.4 Gestão de clientes
+O gestor pode visualizar todos os clientes que estão registados no sistema. É exibida uma janela que contém uma tabela com todos os clientes registados no sistema.
+
+![Janela "Ver Clientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaVerClientes.png)
+
+*Janela "Ver Clientes"*
+
+O gestor pode pesquisar um cliente na barra de pesquisa através do NIF (Número de Identificação Fiscal).
+Para o gestor conseguir visualizar os dados de um cliente em específico, necessita de clicar no botão __Ver detalhes__ da tabela de clientes. Em seguida, é exibida uma janela com todas as informações pessoais do cliente, documentos pessoais e outros dados.
+
+![]()
+
+**
