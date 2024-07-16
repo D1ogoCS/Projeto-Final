@@ -7,7 +7,7 @@ No meu projeto final de curso, realizei um caso de estudo/protótipo de um siste
 
 ### Objetivos do projeto:
 
-- Análise, avaliação e integração de mecanismos de proteção e segurança (blockchain, criptografia, etc)
+- Análise, avaliação e integração de mecanismos de proteção e segurança (blockchain, criptografia, etc...)
 - Desenvolver dois protótipos funcionais que implementem e integrem vários mecanismos de segurança
 
 ### Temas abordados:
