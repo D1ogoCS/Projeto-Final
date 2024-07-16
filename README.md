@@ -3,7 +3,7 @@
 
 No meu projeto final de curso, realizei um caso de estudo/protótipo de um sistema de gestão bancária, com o objetivo de criar uma base de dados, uma aplicação de gestão e uma aplicação Web.
 
-*__Nota:__ Aqui estão apenas descrito os objetivos do projeto, temas aborados, funcionalidades, ferramentas utilizadas, tecnologias utilizadas e os resultados práticos obtidos.*
+*__Nota:__ Aqui estão apenas descrito os objetivos do projeto, temas aborados, funcionalidades, ferramentas utilizadas, tecnologias utilizadas e os resultados práticos obtidos. Os resultados apresentados são o reflexo do meu trabalho no desenvolvimento deste projeto. O código subjacente não está disponível para visualização, porque estou apenas a exibir o essencial.
 
 ### Objetivos do projeto:
 
