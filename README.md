@@ -301,7 +301,7 @@ Se for necessário anexar algum documento pessoal do cliente à subscrição do 
 
 *Impresso com os dados do novo certificado (dados fictícios)*
 
-#### 3.9 Gestão de emprestimos
+#### 3.9 Gestão de empréstimos
 
 ![Janela com os dados de um empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaEmprestimo.png)
 
@@ -315,15 +315,18 @@ Se for necessário anexar algum documento pessoal do cliente à subscrição do 
 
 *Tabela com as prestações pendentes do empréstimo*
 
+#### 3.10 Subscrever empréstimos
 
+![Janela “Adicionar empréstimo”](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarEmprestimo.png)
 
+*Janela “Adicionar empréstimo”*
 
+![Escolher documentos para anexar na subscrição do empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarEmprestimo2.png)
 
+*Escolher documentos para anexar na subscrição do empréstimo*
 
+É possivel imprimir os dados do novo empréstimo subscrito.
 
+![Impresso com os dados do novo empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoEmprestimo.png)
 
-
-
-![](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoEmprestimo.png)
-
-**
+*Impresso com os dados do novo empréstimo (dados fictícios)*
