@@ -128,6 +128,8 @@ Como medida de segurança e auditoria, as atividades realizadas no sistema pelos
 
 Ambas as tabelas possuem trigger’s que não permitem registar atividades em utilizadores que não estejam ativos no sistema, nem permitem que os dados registados sejam alterados.
 
+A base de dados possui diversos trigger´s em diversas tabelas, o que permite automatizar o sistema.
+
 ### 3. Aplicação de gestão
 Uma aplicação de gestão (ou aplicação standalone) é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
 
@@ -189,8 +191,7 @@ utilizador que está registado no sistema, a autenticação passa para a etapa a
 
 Quando o utilizador introduz o código de autenticação de dois fatores e clica novamente no botão __Entrar__, o código introduzido é verificado por um algoritmo de autenticação de dois fatores da biblioteca “Google.Authenticator”, que oferece métodos para gerar códigos de verificação e verificar a autenticidade dos códigos introduzidos pelo utilizador.
 
-A biblioteca “Google.Authenticator” é gratuita e necessita de ser instalada a partir do 
-gestor NuGet presente no Visual Studio (https://www.nuget.org/packages/GoogleAuthenticator/3.2.0). 
+A biblioteca “Google.Authenticator” é gratuita e necessita de ser instalada a partir do gestor NuGet presente no Visual Studio (https://www.nuget.org/packages/GoogleAuthenticator/3.2.0). 
 
 A biblioteca funciona em conjunto com a aplicação Google Authenticator para dispositivos móveis. O Google Authenticator é uma ferramenta gratuita para autenticação de dois fatores,que gera códigos temporários que são usados em combinação com a palavra-passe para adicionar uma camada extra de segurança à autenticação (https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid).
 
@@ -212,15 +213,15 @@ Se for a primeira vez que o utilizador entra na aplicação é exibida uma janel
 *Janela para o utilizador alterar a palavra-passe quando faz login pela primeira vez*
 
 #### 3.4 Gestão de clientes
-O gestor pode visualizar todos os clientes que estão registados no sistema. É exibida uma janela que contém uma tabela com todos os clientes registados no sistema.
+É possivel visualizar todos os clientes que estão registados no sistema. É exibida uma janela que contém uma tabela com todos os clientes registados no sistema.
 
 ![Janela "Ver Clientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaVerClientes.png)
 
 *Janela "Ver Clientes"*
 
-O gestor pode pesquisar um cliente na barra de pesquisa através do NIF (Número de Identificação Fiscal).
+O utilizador pode pesquisar um cliente na barra de pesquisa através do NIF (Número de Identificação Fiscal).
 
-Para o gestor conseguir visualizar os dados de um cliente em específico, necessita de clicar no botão __Ver detalhes__ da tabela de clientes. Em seguida, é exibida uma janela com todas as informações pessoais do cliente, documentos pessoais e outros dados.
+Para o utilizador conseguir visualizar os dados de um cliente em específico, necessita de clicar no botão __Ver detalhes__ da tabela de clientes. Em seguida, é exibida uma janela com todas as informações pessoais do cliente, documentos pessoais e outros dados.
 
 ![Janela com as informações do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaInfoCliente.png)
 
@@ -244,7 +245,7 @@ Para o gestor conseguir visualizar os dados de um cliente em específico, necess
 
 *Campos obrigatórios que não foram preenchidos*
 
-Se necessário, o gestor consegue imprimir um documento com os dados do registo do novo cliente
+Se necessário, é possivel imprimir um documento com os dados do registo do novo cliente
 
 ![Janela para confirmar a impressão do documento](https://github.com/D1ogoCS/Projeto-Final/blob/main/confirmarAdicionarCliente.png)
 
@@ -282,6 +283,47 @@ Para resgatar unidades do certificado, é necessario indicar a quantidade que o 
 
 #### 3.8 Subscrever certificados
 
-![]()
+![Janela “Adicionar certificado”](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarCertificado.png)
+
+Se for necessário anexar algum documento pessoal do cliente à subscrição do certificado, o utilizador deve selecionar as caixas de seleção correspondentes aos documentos pretendidos.
+
+![Janela “Adicionar certificado”](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarCertificado2.png)
+
+*Janela “Adicionar certificado”*
+
+![Gráfico com a projeção dos lucros do certificado](https://github.com/D1ogoCS/Projeto-Final/blob/main/projecaoCertificado.png)
+
+*Gráfico com a projeção dos lucros do certificado*
+
+É possivel imprimir os dados do novo certificado subscrito.
+
+![Impresso com os dados do novo certificado](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoCertificado.png)
+
+*Impresso com os dados do novo certificado (dados fictícios)*
+
+#### 3.9 Gestão de emprestimos
+
+![Janela com os dados de um empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaEmprestimo.png)
+
+*Janela com os dados de um empréstimo*
+
+![Tabela com todas as prestações do empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/prestacoesEmprestimo.png)
+
+*Tabela com todas as prestações do empréstimo*
+
+![Tabela com as prestações pendentes do empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/pagarPrestacoes.png)
+
+*Tabela com as prestações pendentes do empréstimo*
+
+
+
+
+
+
+
+
+
+
+![](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoEmprestimo.png)
 
 **
