@@ -116,7 +116,7 @@ Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” 
 *Palavras-passe codificadas em hash através do algoritmo SHA-256*
 
 ### 3. Aplicação de gestão
-Uma aplicação standalone é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
+Uma aplicação de gestão (ou aplicação standalone) é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
 
 O protótipo da aplicação foi desenvolvido com a utilização do Windows Forms, que é projetado para ser executado em sistemas operativos Windows. 
 
