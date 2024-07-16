@@ -259,9 +259,27 @@ Os documentos da aplicação são construídos através da biblioteca Microsoft 
 #### 3.5 Adicionar documentos
 Quando um documento é adicionado, uma cópia do mesmo é guardada numa pasta do computador que guarda os documentos pessoais dos clientes. Os documentos nunca são guardados na base de dados, apenas é guardado a localização dos mesmos. 
 
-![tabela "Documentos"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaDocumentos.png)
+![Tabela "Documentos"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaDocumentos.png)
 
-*tabela "Documentos"*
+*Tabela "Documentos"*
 
 #### 3.6 Apagar documentos
-Antes de apagar o documento, é verificado se nas tabelas “DocumentoCertificados” e “DocumentoEmprestimos” da base de dados existe alguma referenciação do documento que se pretende apagar do sistema. Se existir, o documento não é apagado do sistema, apenas o valor da coluna “documentoAtivo” da tabela “Documentos” é alterado para “False”, o que faz com que o documento deixe de aparecer na tabela de documentos pessoais. Se não existir referenciação, a linha que está associada ao documento na tabela “Documentos” é apagada
+Antes de apagar o documento, é verificado se nas tabelas “DocumentoCertificados” e “DocumentoEmprestimos” da base de dados existe alguma referenciação do documento que se pretende apagar do sistema. Se existir, o documento não é apagado do sistema, apenas o valor da coluna “documentoAtivo” da tabela “Documentos” é alterado para “False”, o que faz com que o documento deixe de aparecer na tabela de documentos pessoais. Se não existir referenciação, a linha que está associada ao documento na tabela “Documentos” é apagada, e consequentemente também é apagado o documento da pasta do computador onde o mesmo está guardado.
+
+#### 3.7 Gestão de certificados
+
+![Janela com os dados de um certificado](https://github.com/D1ogoCS/Projeto-Final/blob/main/gestaoCertificados.png)
+
+*Janela com os dados de um certificado*
+
+![Campo para indicar as unidades que o cliente quer resgatar](https://github.com/D1ogoCS/Projeto-Final/blob/main/resgateUnidades.png)
+
+*Campo para indicar as unidades que o cliente quer resgatar*
+
+É possivel alterar o número da conta bancária associada ao certificado e também resgatar unidades do certificado, imprimir os dados do certificado e visualizar os documentos associados ao mesmo.
+
+Para resgatar unidades do certificado, é necessario indicar a quantidade que o cliente pretende retirar do certificado. A quantia introduzida é adicionada à conta bancária que está associada ao certificado.
+
+#### 3.8 Subscrever certificados
+
+
