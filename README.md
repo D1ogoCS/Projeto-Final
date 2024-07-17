@@ -372,3 +372,7 @@ Para o gestor visualizar as atividades, necessita de escolher um intervalo de te
 ![Janela com as informações de uma conta bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/gestaoConta.png)
 
 *Janela com as informações de uma conta bancária*
+
+É possivel modificar os titulares da conta, imprimir as informações, efetuar transações, associar cartões bancários, visualizar os movimentos de conta e ainda alterar o estado da conta.
+
+Para se adicionar um novo titular a uma conta bancária, é necessario introduzir o NIF do novo titular no campo “NIF do titular” (o novo titular já deve estar previamente registado no sistema) e de seguida clicar no botão __Adicionar__.
