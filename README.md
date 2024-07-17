@@ -107,16 +107,15 @@ Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo 
 
 *Web Service SOAP*
 
-
 ### 2. Base de dados
-Para uma maior segurança, as palavras-passe guardadas na tabela “Gestores” e na tabela "Credenciais" da base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
+- Para uma maior segurança, as palavras-passe guardadas na base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
 
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
 
 *Palavras-passe codificadas em hash através do algoritmo SHA-256*
 
-Todas as atividades que possam ser executadas nas aplicações (incluindo a autenticação) e que seja necessário o registo do utilizador que as realizou, são executadas através de procedimentos armazenados que estão presentes na base de dados. Todos os procedimentos armazenados possuem em comum alguns parâmetros que identificam o utilizador e indicam a data em que a atividade é realizada. 
-Como medida de segurança e auditoria, as atividades realizadas no sistema pelos utilizadores, são registadas nas tabelas apropriadas, nomeadamente na tabela “HistoricoAtividades” e na tabela “HistoricoAtividadesClientes”.
+- Todas as atividades que possam ser executadas nas aplicações (incluindo a autenticação) e que seja necessário o registo do utilizador que as realizou, são executadas através de procedimentos armazenados que estão presentes na base de dados. Todos os procedimentos armazenados possuem em comum alguns parâmetros que identificam o utilizador e indicam a data em que a atividade é realizada. 
+Como medida de segurança e auditoria, as atividades realizadas no sistema pelos utilizadores, são registadas nas tabelas apropriadas, nomeadamente na tabela “HistoricoAtividades” e na tabela “HistoricoAtividadesClientes”. Ambas as tabelas possuem trigger’s que não permitem registar atividades em utilizadores que não estejam ativos no sistema, nem permitem que os dados registados sejam alterados.
 
 ![Tabela "HistoricoAtividades"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividades.png) 
 
@@ -126,9 +125,7 @@ Como medida de segurança e auditoria, as atividades realizadas no sistema pelos
 
 *Tabela "HistoricoAtividadesClientes"*
 
-Ambas as tabelas possuem trigger’s que não permitem registar atividades em utilizadores que não estejam ativos no sistema, nem permitem que os dados registados sejam alterados.
-
-A base de dados possui diversos trigger´s em diversas tabelas, o que permite automatizar o sistema.
+- A base de dados possui diversos trigger´s em diversas tabelas, o que permite automatizar o sistema.
 
 ### 3. Aplicação de gestão
 Uma aplicação de gestão (ou aplicação standalone) é uma aplicação completamente autossuficiente. Isso significa que não depende de nenhum software auxiliar para ser executada.
@@ -265,7 +262,7 @@ Quando um documento é adicionado, uma cópia do mesmo é guardada numa pasta do
 *Tabela "Documentos"*
 
 #### 3.6 Apagar documentos
-Antes de apagar o documento, é verificado se nas tabelas “DocumentoCertificados” e “DocumentoEmprestimos” da base de dados existe alguma referenciação do documento que se pretende apagar do sistema. Se existir, o documento não é apagado do sistema, apenas o valor da coluna “documentoAtivo” da tabela “Documentos” é alterado para “False”, o que faz com que o documento deixe de aparecer na tabela de documentos pessoais. Se não existir referenciação, a linha que está associada ao documento na tabela “Documentos” é apagada, e consequentemente também é apagado o documento da pasta do computador onde o mesmo está guardado.
+Antes de apagar o documento, é verificado na base de dados se existe alguma referenciação do documento que se pretende apagar do sistema. Se existir, o documento não é apagado do sistema, apenas o valor da coluna “documentoAtivo” da tabela “Documentos” é alterado para “False”, o que faz com que o documento deixe de aparecer na tabela de documentos pessoais. Se não existir referenciação, a linha que está associada ao documento na tabela “Documentos” é apagada, e consequentemente também é apagado o documento da pasta do computador onde o mesmo está guardado.
 
 #### 3.7 Gestão de certificados
 
@@ -325,7 +322,7 @@ Se for necessário anexar algum documento pessoal do cliente à subscrição do 
 
 *Escolher documentos para anexar na subscrição do empréstimo*
 
-É possivel imprimir os dados do novo empréstimo subscrito.
+Após a subscrição, é possivel imprimir os dados do novo empréstimo.
 
 ![Impresso com os dados do novo empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoEmprestimo.png)
 
