@@ -282,11 +282,13 @@ Para resgatar unidades do certificado, é necessario indicar a quantidade que o 
 
 ![Janela “Adicionar certificado”](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarCertificado.png)
 
+*Janela “Adicionar certificado”*
+
 Se for necessário anexar algum documento pessoal do cliente à subscrição do certificado, o utilizador deve selecionar as caixas de seleção correspondentes aos documentos pretendidos.
 
-![Janela “Adicionar certificado”](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarCertificado2.png)
+![Escolher documentos para anexar na subscrição do certificado](https://github.com/D1ogoCS/Projeto-Final/blob/main/adicionarCertificado2.png)
 
-*Janela “Adicionar certificado”*
+*Escolher documentos para anexar na subscrição do certificado*
 
 ![Gráfico com a projeção dos lucros do certificado](https://github.com/D1ogoCS/Projeto-Final/blob/main/projecaoCertificado.png)
 
