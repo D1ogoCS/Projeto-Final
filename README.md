@@ -367,4 +367,8 @@ Para o gestor visualizar as atividades, necessita de escolher um intervalo de te
 
 *Tabela do histórico de atividades do HomeBanking preenchida com algumas atividades através do filtro*
 
+#### 3.12 Gestão de contas bancárias
 
+![Janela com as informações de uma conta bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/gestaoConta.png)
+
+*Janela com as informações de uma conta bancária*
