@@ -329,3 +329,42 @@ Após a subscrição, é possivel imprimir os dados do novo empréstimo.
 ![Impresso com os dados do novo empréstimo](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoEmprestimo.png)
 
 *Impresso com os dados do novo empréstimo (dados fictícios)*
+
+#### 3.11 Serviços HomeBanking
+Quando um novo cliente é adicionado ao sistema, o mesmo ainda não possui as credenciais de acesso necessárias para utilizar os serviços online. Apenas os utilizadores que têm acesso à aplicação de gestão podem alterar o estado das credenciais dos clientes.
+Quando o cliente não possui credenciais de acesso para o HomeBanking, o campo “Estado” possui o valor de “Inativo”.
+
+![Janela “HomeBanking”](https://github.com/D1ogoCS/Projeto-Final/blob/main/servicosHomeBanking.png)
+
+*Janela “HomeBanking”*
+
+![Botões HomeBanking](https://github.com/D1ogoCS/Projeto-Final/blob/main/botoesHomeBanking.png)
+
+*Botões HomeBanking*
+
+Para atribuir credenciais de acesso ao cliente, o gestor necessita de clicar no botão __Ativar__.
+
+O botão __Cancelar HomeBanking__, serve para o gestor cancelar as credenciais de acesso do cliente à aplicação Web.
+
+Quando o cliente falha cinco vezes a autenticação na aplicação Web, as credenciais ficam bloqueadas. Para as desbloquear o gestor necessita de clicar no botão __Desbloquear Acesso__. Também é possível executar a operação inversa, ou seja, bloquear as credenciais, para isso o gestor necessita de clicar no botão __Bloquear Acesso__.
+
+O botão __Repor Acesso__, permite ao gestor gerar novas credenciais de acesso para o cliente, se o mesmo se esquecer das credenciais atuais ou se houver suspeita de alguém saber das suas informações de acesso à aplicação Web.
+
+Sempre que o gestor desbloqueia, ativa, ou repõe o acesso das credenciais do cliente, necessita de imprimir um documento que contém o nome de utilizador, a palavra-passe e um código QR (código de resposta rápida) para utilizar na aplicação Google Authenticator.
+
+![Impresso com as credenciais de acesso do HomeBanking do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoHomeBanking.png)
+
+*Impresso com as credenciais de acesso do HomeBanking do cliente (dados fictícios)*
+
+Na janela “HomeBanking”, é possível consultar as atividades que o cliente executa na aplicação Web.
+Para o gestor visualizar as atividades, necessita de escolher um intervalo de tempo e se for necessário, filtrar os resultados por tipo de atividade.
+
+![Tabela do histórico de atividades do HomeBanking preenchida com algumas atividades](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoHomeBanking.png)
+
+*Tabela do histórico de atividades do HomeBanking preenchida com algumas atividades*
+
+![Tabela do histórico de atividades do HomeBanking preenchida com algumas atividades através do filtro](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoHomeBanking2.png)
+
+*Tabela do histórico de atividades do HomeBanking preenchida com algumas atividades através do filtro*
+
+
