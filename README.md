@@ -376,3 +376,20 @@ Para o gestor visualizar as atividades, necessita de escolher um intervalo de te
 É possivel modificar os titulares da conta, imprimir as informações, efetuar transações, associar cartões bancários, visualizar os movimentos de conta e ainda alterar o estado da conta.
 
 Para se adicionar um novo titular a uma conta bancária, é necessario introduzir o NIF do novo titular no campo “NIF do titular” (o novo titular já deve estar previamente registado no sistema) e de seguida clicar no botão __Adicionar__.
+
+Para se conseguir visualizar os movimentos bancários de uma conta, é necessario na secção “Transações” selecionar a partir de que data se deseja obter os movimentos bancários (mensal, anual ou personalizado).
+O botão __Extrato mensal__ exibe todos os movimentos do mês atual do sistema, o botão __Extrato anual__ exibe todos os movimentos do ano atual do sistema e o botão __Pesquisar__ exibe todos os movimentos entre as datas selecionadas (a data inicial necessita de ser inferior à data final).
+
+![Secção “Transações”](https://github.com/D1ogoCS/Projeto-Final/blob/main/seccaoTransacao.png)
+
+*Secção “Transações”*
+
+![Tabela com os movimentos bancários (extrato mensal)](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaTransacoes.png)
+
+*Tabela com os movimentos bancários (extrato mensal)*
+
+Os movimentos bancários também podem ser impressos.
+
+![Excerto do impresso com os movimentos bancários](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoTransacoes.png)
+
+*Excerto do impresso com os movimentos bancários (dados fictícios)*
