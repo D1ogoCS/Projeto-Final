@@ -393,3 +393,17 @@ Os movimentos bancários também podem ser impressos.
 ![Excerto do impresso com os movimentos bancários](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoTransacoes.png)
 
 *Excerto do impresso com os movimentos bancários (dados fictícios)*
+
+Para visualizar as informações de uma transação, é necessario de clicar no botão __Ver detalhes__ e de seguida, é exibida uma janela com as informações da transação pretendida.
+
+![Janela com informações sobre o pagamento de uma prestação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaTransacao.png)
+
+*Janela com informações sobre o pagamento de uma prestação*
+
+![Janela com informações sobre uma transferência bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaTransacao2.png)
+
+*Janela com informações sobre uma transferência bancária*
+
+![Impresso com os detalhes de uma transferência bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoDadosTransacao.png)
+
+*Impresso com os detalhes de uma transferência bancária*
