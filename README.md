@@ -377,6 +377,12 @@ Para o gestor visualizar as atividades, necessita de escolher um intervalo de te
 
 Para se adicionar um novo titular a uma conta bancária, é necessario introduzir o NIF do novo titular no campo “NIF do titular” (o novo titular já deve estar previamente registado no sistema) e de seguida clicar no botão __Adicionar__.
 
+Quando um cliente deixa de ser titular de uma conta, um trigger é responsável por alterar a conta que está associada aos empréstimos e certificados do cliente que foi removido e que tinham essa mesma conta associada. Assim, os certificados e empréstimos do cliente ficam associados à primeira conta bancária que está registada e que o cliente possui.
+
+Quando um cliente deixa de ser titular de uma conta, um trigger é responsável por desativar todos os cartões que estão associados ao cliente e à conta bancária.
+
+Quando uma conta bancária é excluida do sistema (a conta nunca sai do sistema, é apenas alterado o valor do seu estado na base de dados), todos os cartões bancários associados a esta conta são desativados.
+
 Para se conseguir visualizar os movimentos bancários de uma conta, é necessario na secção “Transações” selecionar a partir de que data se deseja obter os movimentos bancários (mensal, anual ou personalizado).
 O botão __Extrato mensal__ exibe todos os movimentos do mês atual do sistema, o botão __Extrato anual__ exibe todos os movimentos do ano atual do sistema e o botão __Pesquisar__ exibe todos os movimentos entre as datas selecionadas (a data inicial necessita de ser inferior à data final).
 
@@ -469,6 +475,7 @@ Quando se clica no botão __Bloquear Conta__, a coluna “estadoConta” fica co
 Para reverter esse estado, é necessario clicar no botão __Ativar Conta__, para alterar o valor da coluna “estadoConta” para “Ativa”.
 
 Através do botão __Apagar Conta__, é possivel fechar uma conta bancária. No entanto, a conta não é excluída do sistema, apenas o valor da coluna “estadoConta” é alterado para “Inativa”. Isso faz com que a conta nunca mais seja visível na aplicação, ou seja, é como se nunca tivesse existido. Por outro lado, as informações relacionadas à conta na base de dados permanecem visíveis.
+Quando uma conta bancária é excluida do sistema, todos os cartões bancários associados a esta conta são desativados.
 
 Para excluir uma conta, o saldo necessita de ser nulo, e não pode haver certificados ou empréstimos associados à conta, em que o estado dos mesmos seja "Pendente".
 
@@ -478,7 +485,34 @@ Para excluir uma conta, o saldo necessita de ser nulo, e não pode haver certifi
 
 *Janela com informações de um cartão bancário*
 
+Na janela, é possível visualizar o número do cartão, a data de validade, o estado do cartão, o número da conta bancária associada, e ainda se podem realizar as operações de bloquear e desbloquear o cartão, restaurar o PIN (Personal Identification Number) e cancelar o cartão.
+
+![Janela "Adicionar cartão"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAdicionarCartao.png)
+
+*Janela "Adicionar cartão"*
+
+#### 3.17 Perfil Pessoal (utilizador da aplicação de gestão)
+
+![Janela do perfil pessoal](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaPerfilPessoal.png)
+
+*Janela do perfil pessoal*
+
+O utilizador consegue visualizar as atividades e a data em que as mesmas foram realizadas no sistema. Para visualizar as atividades, o utilizador deve selecionar um intervalo de tempo e, se necessário, escolher um tipo de atividade na lista de opções para filtrar as atividades.
+
+![Lista de opções de atividades realizadas pelo utilizador](https://github.com/D1ogoCS/Projeto-Final/blob/main/listaAtividadesRealizadas.png)
+
+*Lista de opções de atividades realizadas pelo utilizador*
+
+As atividades presentes na lista de opções, são atividades que o utilizador já realizou no sistema.
+
+Depois de o utilizador escolher o intervalo de tempo e eventualmente uma atividade para filtrar, necessita de clicar no botão __Pesquisar__ para a tabela ser preenchida com as atividades realizadas no intervalo de tempo escolhido. 
+
+#### 3.18 Alterar Palavra-passe
+
+![Janela para alterar a palavra-passe](https://github.com/D1ogoCS/Projeto-Final/blob/main/alterarPassword.png)
+
+*Janela para alterar a palavra-passe*
+
 ![]()
 
 **
-
