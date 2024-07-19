@@ -472,6 +472,11 @@ Através do botão __Apagar Conta__, é possivel fechar uma conta bancária. No 
 
 Para excluir uma conta, o saldo necessita de ser nulo, e não pode haver certificados ou empréstimos associados à conta, em que o estado dos mesmos seja "Pendente".
 
+#### 3.16 Gestão de cartões
+
+![Janela com informações de um cartão bancário](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaCartoes.png)
+
+*Janela com informações de um cartão bancário*
 
 ![]()
 
