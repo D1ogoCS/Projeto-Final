@@ -513,6 +513,25 @@ Depois de o utilizador escolher o intervalo de tempo e eventualmente uma ativida
 
 *Janela para alterar a palavra-passe*
 
+Para alterar a palavra-passe, o utilizador deve cumprir algumas regras mínimas de segurança. Estas incluem:
+
+→ Ter entre 10 e 20 caracteres;
+
+→ Ter no mínimo um caracter especial;
+
+→ Ter no mínimo um caracter maiúsculo.
+
+Após o utilizador preencher os campos para alterar a palavra-passe, se todas as regras tiverem sido cumpridas, as linhas que exibem as regras ficarão verdes
+
+![Janela de alterar a palavra-passe com as regras cumpridas](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaPasswordVerde.png)
+
+*Janela de alterar a palavra-passe com as regras cumpridas*
+
+#### 3.19 Gestão de gestores
+
+A gestão dos utilizadores da aplicação de gestão está disponível apenas para utilizadores que sejam administradores do sistema.
+
 ![]()
 
 **
+
