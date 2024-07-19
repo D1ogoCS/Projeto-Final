@@ -396,7 +396,7 @@ Os movimentos bancários também podem ser impressos.
 
 Para visualizar as informações de uma transação, é necessario de clicar no botão __Ver detalhes__ e de seguida, é exibida uma janela com as informações da transação pretendida.
 
-![Janela com informações sobre o pagamento de uma prestação]()
+![Janela com informações sobre o pagamento de uma prestação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaTransacao.png)
 
 *Janela com informações sobre o pagamento de uma prestação*
 
@@ -410,9 +410,68 @@ Para visualizar as informações de uma transação, é necessario de clicar no 
 
 #### 3.13 Transação
 
-![]()
+![Janela "Transação"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaEfetuarTransacao.png)
 
-**
+*Janela "Transação"*
+
+É necessario escolher qual é o tipo da transação, podendo ser um dos seguintes:
+
+→ Levantamento;
+
+→ Depósito;
+
+→ Transferência.
+
+Se a transação for um levantamento ou um depósito, só é necessário indicar a quantia a depositar ou a debitar.
+
+No levantamento, a quantia introduzida deve ser sempre menor ou igual ao saldo disponível na conta.
+
+No caso de ser uma transferência, é necessário indicar a quantia que o cliente quer que seja transferida, bem como o número da conta do destinatário.
+
+![Transação do tipo "Transferência"](https://github.com/D1ogoCS/Projeto-Final/blob/main/transferencia.png)
+
+*Transação do tipo "Transferência"*
+
+Quando se clica no botão __Procurar__, é obtido o nome do titular da conta do destinatário.
+
+Quando se clica no botão __Confirmar__, independentemente do tipo de transação, é executado o Serviço Web “inserirTransacao()”
+
+Depois de se clicar no botão __Confirmar__, para confirmar a transação, é possivel imprimir um documento com informações sobre a transação realizada.
+
+#### 3.14 Criar conta bancária
+
+![Janela "Adicionar conta"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAdicionarConta.png)
+
+*Janela "Adicionar conta"*
+
+Para indicar os clientes que serão titulares da conta, é necessario inserir o NIF de cada titular no campo “NIF do titular” e de seguida, clicar no botão __Adicionar__.
+
+![Os titulares da nova conta são exibidos na tabela](https://github.com/D1ogoCS/Projeto-Final/blob/main/titularesNovaConta.png)
+
+*Os titulares da nova conta são exibidos na tabela*
+
+Para cada titular da conta, deve ser indicado o tipo de titularidade.
+Depois de indicar os titulares da nova conta bancária, é necessário especificar qual é o tipo de conta bancária.
+
+![Impresso com os dados da nova conta bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoNovaConta.png)
+
+*Impresso com os dados da nova conta bancária (dados fictícios)*
+
+#### 3.15 Alterar o estado de uma conta bancária
+
+![Botões para alterar o estado da conta](https://github.com/D1ogoCS/Projeto-Final/blob/main/botoesConta.png)
+
+*Botões para alterar o estado da conta*
+
+Os botões quando são acionados, alteram o valor que está presente na coluna “estadoConta” da tabela “Contas”.
+
+Quando se clica no botão __Bloquear Conta__, a coluna “estadoConta” fica com o valor “Bloqueada”. Nesse estado, não é possível alterar os dados da conta, criar cartões bancários para a conta, realizar transações ou receber transferências bancárias. Apenas é possível visualizar os movimentos bancários da conta. 
+Para reverter esse estado, é necessario clicar no botão __Ativar Conta__, para alterar o valor da coluna “estadoConta” para “Ativa”.
+
+Através do botão __Apagar Conta__, é possivel fechar uma conta bancária. No entanto, a conta não é excluída do sistema, apenas o valor da coluna “estadoConta” é alterado para “Inativa”. Isso faz com que a conta nunca mais seja visível na aplicação, ou seja, é como se nunca tivesse existido. Por outro lado, as informações relacionadas à conta na base de dados permanecem visíveis.
+
+Para excluir uma conta, o saldo necessita de ser nulo, e não pode haver certificados ou empréstimos associados à conta, em que o estado dos mesmos seja "Pendente".
+
 
 ![]()
 
