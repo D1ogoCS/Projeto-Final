@@ -396,7 +396,7 @@ Os movimentos bancários também podem ser impressos.
 
 Para visualizar as informações de uma transação, é necessario de clicar no botão __Ver detalhes__ e de seguida, é exibida uma janela com as informações da transação pretendida.
 
-![Janela com informações sobre o pagamento de uma prestação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaTransacao.png)
+![Janela com informações sobre o pagamento de uma prestação]()
 
 *Janela com informações sobre o pagamento de uma prestação*
 
