@@ -567,7 +567,9 @@ O administrador pode ainda excluir e reativar os gestores do sistema. O gestores
 
 É necessário indicar o nome do novo gestor e o tipo de função que vai desempenhar no sistema.
 
-Após o administrador preencher todos os campos obrigatórios, necessita de imprimir o documento que contém os dados de acesso à aplicação.
+Após o administrador preencher todos os campos obrigatórios, necessita de clicar no botão __Confirmar__ e por fim imprimir o documento que contém os dados de acesso à aplicação.
+
+### 4. Aplicação Web
 
 ![]()
 
