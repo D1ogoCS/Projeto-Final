@@ -584,6 +584,77 @@ Após o administrador preencher todos os campos obrigatórios, necessita de clic
 
 As aplicações Web são acessíveis de qualquer lugar do mundo com conexão à internet. Isso permite que os utilizadores usem serviços e funcionalidades sem restrições geográficas. Podem ser protegidas centralmente no servidor, reduzindo riscos de segurança nos dispositivos dos utilizadores e atendendo a um grande número de utilizadores em simultâneo.
 
+#### 4.1 Autenticação
+
+Para utilizar qualquer funcionalidade da aplicação Web, é necessário estar previamente autenticado. Todas as páginas Web da aplicação possuem um algoritmo que deteta se o utilizador se encontra autenticado ou não. Se o utilizador ainda não estiver autenticado, é redirecionado para a página de autenticação.
+
+A autenticação é essencial na aplicação, para registar todas as atividades realizadas pelo utilizador autenticado no sistema. Cada ação realizada pelo utilizador é registada na tabela “HistoricoAtividadeClientes”, que armazena informações como a data, a atividade e a identificação do utilizador.
+
+A autenticação da aplicação Web, segue a mesma lógica de implementação da autenticação da aplicação standalone.
+
+Na página de autenticação, o cliente (utilizador da aplicação) deve introduzir as suas credenciais de acesso e, se estiverem corretas, inserir o código de autenticação de dois fatores.
+
+![Página de autenticação da aplicação](https://github.com/D1ogoCS/Projeto-Final/blob/main/loginWeb.png)
+
+*Página de autenticação da aplicação*
+
+![Página para introduzir o código da autenticação de dois fatores](https://github.com/D1ogoCS/Projeto-Final/blob/main/codigo2FWeb.png)
+
+*Página para introduzir o código da autenticação de dois fatores*
+
+![Código de autenticação de dois fatores introduzidos na página Web](https://github.com/D1ogoCS/Projeto-Final/blob/main/codigoIntroduzidoWeb.png)
+
+*Código de autenticação de dois fatores introduzidos na página Web*
+
+A palavra-passe que o utilizador introduz, é enviada para o servidor para depois ser encriptada em código hash.
+
+Como o valor introduzido é enviado para o servidor, sem estar previamenteencriptado em hash, qualquer pessoa com acesso ao canal de comunicação, pode visualizar as informações que estão a ser transmitidas. Assim, para melhorar a segurança da aplicação Web, são utilizados os protocolos HTTPS e SSL (Secure Sockets Layer).
+
+O SSL é um protocolo de segurança da Internet que faz a autenticação da identidade de um website e cria um canal criptografado entre o utilizador e o servidor.
+
+Se o cliente inserir uma palavra-passe incorreta, um contador presente na base de dados aumenta, até um máximo de cinco tentativas erradas. Quando o limite máximo de tentativas erradas é atingido, as credenciais de acesso do cliente à aplicação Web ficam bloqueadas e só podem ser desbloqueadas por meio da aplicação de gestão.
+
+Quando o cliente acede à aplicação Web com as credenciais temporárias pela primeira vez, após inserir as credenciais e o código de autenticação de dois fatores, é redirecionado para uma página para alterar o nome de utilizador e a palavra-passe
+
+![Página Web para alterar as credenciais de acesso à aplicação](https://github.com/D1ogoCS/Projeto-Final/blob/main/alterarCredenciaisWeb.png)
+
+*Página Web para alterar as credenciais de acesso à aplicação*
+
+Para alterar as credenciais de acesso à aplicação, o cliente tem de seguir algumas regras de segurança ao alterar o nome de utilizador e a palavra-passe. As regras aplicadas à alteração das credenciais são as seguintes:
+→ O nome de utilizador tem de ser único, necessita de ter no mínimo 10 caracteres e pelo menos um caracter maiúsculo;
+
+→ A palavra-passe necessita de ter no mínimo 10 caracteres e precisa de ter pelo menos um caractere especial e um caracter maiúsculo;
+
+→ O nome de utilizador não pode ser igual a palavra-passe.
+
+Após a autenticação do cliente, o menu da aplicação Web é exibido.
+
+![Menu da aplicação Web](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaPrincipalWeb.png)
+
+*Menu da aplicação Web*
+
+#### 4.2 Perfil 
+
+![Perfil do cliente na aplicação Web](https://github.com/D1ogoCS/Projeto-Final/blob/main/perfilWeb.png)
+
+*Perfil do cliente na aplicação Web*
+
+#### 4.3 Alterar palavra-passe
+
+![Página Web para alterar a palavra-passe](https://github.com/D1ogoCS/Projeto-Final/blob/main/alterarPasswordWeb.png)
+
+*Página Web para alterar a palavra-passe*
+
+O cliente deve inserir a palavra-passe atual e a nova palavra-passe e, em seguida, clicar no botão __Continuar__. As regras aplicadas à alteração da palavra-passe são as mesmas descritas anteriormente.
+
+Após clicar no botão, é exibida uma página web para o cliente inserir o código de autenticação de dois fatores e confirmar a alteração da senha.
+
+![Introdução do código de autenticação dois fatores para confirmar alteração da palavra-passe](https://github.com/D1ogoCS/Projeto-Final/blob/main/alterarPasswordWeb2.png)
+
+*Introdução do código de autenticação dois fatores para confirmar alteração da palavra-passe*
+
+#### 4.4 Histórico de atividades
+
 ![]()
 
 **
@@ -591,6 +662,16 @@ As aplicações Web são acessíveis de qualquer lugar do mundo com conexão à 
 ![]()
 
 **
+
+![]()
+
+**
+
+![]()
+
+**
+
+
 
 
 
