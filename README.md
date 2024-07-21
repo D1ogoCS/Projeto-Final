@@ -582,6 +582,8 @@ Após o administrador preencher todos os campos obrigatórios, necessita de clic
 
 ### 4. Aplicação Web
 
+As aplicações Web são acessíveis de qualquer lugar do mundo com conexão à internet. Isso permite que os utilizadores usem serviços e funcionalidades sem restrições geográficas. Podem ser protegidas centralmente no servidor, reduzindo riscos de segurança nos dispositivos dos utilizadores e atendendo a um grande número de utilizadores em simultâneo.
+
 ![]()
 
 **
