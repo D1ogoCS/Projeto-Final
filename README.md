@@ -108,6 +108,15 @@ Foram desenvolvidos Serviços Web com a utilização do protocolo SOAP, de modo 
 *Web Service SOAP*
 
 ### 2. Base de dados
+
+Uma base de dados é um conjunto de informações organizadas, armazenadas e geridas de forma estruturada.
+
+Funciona como se fosse uma caixa onde podemos guardar nomes, números de telefone, endereços e outras informações. Essa caixa ajuda-nos a encontrar essas informações rapidamente quando precisamos. As bases de dados são utilizadas noscomputadores para guardar os dados de forma organizada e segura.
+
+A implementação de uma base de dados numa organização é fundamental nos dias atuais, pois permite gerir grandes quantidades de dados e facilita a organização, manutenção e pesquisa dos mesmos. Além disso, as bases de dados são vitais para as organizações, pois são a principal peça dos sistemas de informação e segurança.
+
+- Para evitar os ataques por SQL Injection, são utilizadas consultas parametrizadas ou parâmetros preparados para evitar a introdução direta de valores nos comandos SQL (Structured Query Language).
+
 - Para uma maior segurança, as palavras-passe guardadas na base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
 
 ![Palavras-passe codificadas em hash](https://github.com/D1ogoCS/Projeto-Final/blob/main/passwordHash.png) 
