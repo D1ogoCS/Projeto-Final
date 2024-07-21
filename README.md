@@ -531,7 +531,52 @@ Após o utilizador preencher os campos para alterar a palavra-passe, se todas as
 
 A gestão dos utilizadores da aplicação de gestão está disponível apenas para utilizadores que sejam administradores do sistema.
 
+![Janela "Ver Gestores"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaVerGestores.png)
+
+*Janela "Ver Gestores"*
+
+Para facilitar a procura de um gestor em específico, pode-se utilizar a barra de pesquisa para filtrar os gestores por nome de utilizador.
+
+![Filtrar os gestores por nome de utilizador](https://github.com/D1ogoCS/Projeto-Final/blob/main/filtrarGestores.png)
+
+*Filtrar os gestores por nome de utilizador*
+
+Para o administrador visualizar o perfil de um gestor, necessita de clicar no botão __Ver detalhes__
+
+![Janela do perfil de um gestor](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaPerfilGestor.png)
+
+*Janela do perfil de um gestor*
+
+O administrador tem a capacidade de aceder ao histórico de atividades do gestor, repor o acesso do gestor à aplicação, alterar o nome e a função do gestor no sistema e ainda, excluir o gestor do sistema.
+
+Se um gestor ou administrador perder o acesso à aplicação, um outro administrador pode repor o acesso.
+
+Após repor o acesso, o administrador deve imprimir o comprovativo com os novos dados de acesso que o gestor vai utilizar para efetuar login na aplicação.
+
+![Impresso com os novos dados do gestor](https://github.com/D1ogoCS/Projeto-Final/blob/main/impressoDadosGestor.png)
+
+*Impresso com os novos dados do gestor*
+
+O administrador pode ainda excluir e reativar os gestores do sistema. O gestores nunca são apagados do sistema, apenas o valor da coluna “estadoGestor” da tabela “Gestores” é alterado para “Inativo”.
+
+#### 3.20 Adicionar gestor
+
+![Janela "Adicionar Gestores"](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaAdicionarGestor.png)
+
+*Janela "Adicionar Gestores"*
+
+É necessário indicar o nome do novo gestor e o tipo de função que vai desempenhar no sistema.
+
+Após o administrador preencher todos os campos obrigatórios, necessita de imprimir o documento que contém os dados de acesso à aplicação.
+
 ![]()
 
 **
+
+![]()
+
+**
+
+
+
 
