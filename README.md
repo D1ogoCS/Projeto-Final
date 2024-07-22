@@ -157,13 +157,11 @@ A base de dados do sistema, contém um total de 26 tabelas que resultam da aplic
 
 *Tabela "HistoricoAtividadesClientes"*
 
-
 - Tabela "HistoricoAtividades"
 
 ![Tabela "HistoricoAtividades"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividades.png) 
 
 *Tabela "HistoricoAtividades"*
-
 
 - Tabela "Transacoes"
 
