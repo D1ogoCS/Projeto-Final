@@ -117,6 +117,33 @@ Funciona como se fosse uma caixa onde podemos guardar nomes, números de telefon
 
 A implementação de uma base de dados numa organização é fundamental nos dias atuais, pois permite gerir grandes quantidades de dados e facilita a organização, manutenção e pesquisa dos mesmos. Além disso, as bases de dados são vitais para as organizações, pois são a principal peça dos sistemas de informação e segurança.
 
+#### 2.1 Tabelas
+
+A base de dados do sistema, contém um total de 26 tabelas que resultam da aplicação das regras de transposição do modelo de classes para o modelo relacional, mas apenas oito são responsáveis por garantir as funcionalidades de autenticação e segurança da aplicação. As oito tabelas são as seguintes:
+
+- Tabela “Atividades”
+
+- Tabela "Clientes"
+- Tabela "Contas"
+- Tabela "Credenciais"
+- Tabela "Gestores"
+- Tabela "HistoricoAtividadesClientes"
+  
+![Tabela "HistoricoAtividadesClientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividadesClientes.png) 
+
+*Tabela "HistoricoAtividadesClientes"*
+
+- Tabela "HistoricoAtividades"
+
+![Tabela "HistoricoAtividades"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividades.png) 
+
+*Tabela "HistoricoAtividades"*
+
+- Tabela "Transacoes"
+
+
+#### 2.2 Medidas de segurança
+
 - Para evitar os ataques por SQL Injection, são utilizadas consultas parametrizadas ou parâmetros preparados nas aplicações, para evitar a introdução direta de valores nos comandos SQL (Structured Query Language).
 
 - Para uma maior segurança, as palavras-passe guardadas na base de dados, estão codificadas em hash através da utilização do algoritmo SHA-256.
@@ -127,14 +154,6 @@ A implementação de uma base de dados numa organização é fundamental nos dia
 
 - Todas as atividades que possam ser executadas nas aplicações (incluindo a autenticação) e que seja necessário o registo do utilizador que as realizou, são executadas através de procedimentos armazenados que estão presentes na base de dados. Todos os procedimentos armazenados possuem em comum alguns parâmetros que identificam o utilizador e indicam a data em que a atividade é realizada. 
 Como medida de segurança e auditoria, as atividades realizadas no sistema pelos utilizadores, são registadas nas tabelas apropriadas, nomeadamente na tabela “HistoricoAtividades” e na tabela “HistoricoAtividadesClientes”. Ambas as tabelas possuem trigger’s que não permitem registar atividades em utilizadores que não estejam ativos no sistema, nem permitem que os dados registados sejam alterados.
-
-![Tabela "HistoricoAtividades"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividades.png) 
-
-*Tabela "HistoricoAtividades"*
-
-![Tabela "HistoricoAtividadesClientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividadesClientes.png) 
-
-*Tabela "HistoricoAtividadesClientes"*
 
 - A base de dados possui diversos trigger´s em diversas tabelas, o que permite automatizar o sistema.
 
