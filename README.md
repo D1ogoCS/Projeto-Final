@@ -434,7 +434,7 @@ O botão __Extrato mensal__ exibe todos os movimentos do mês atual do sistema, 
 
 *Secção “Transações”*
 
-![Tabela com os movimentos bancários (extrato mensal)](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaTransacoes.png)
+![Tabela com os movimentos bancários (extrato mensal)](https://github.com/D1ogoCS/Projeto-Final/blob/main/transacoesConta.png)
 
 *Tabela com os movimentos bancários (extrato mensal)*
 
