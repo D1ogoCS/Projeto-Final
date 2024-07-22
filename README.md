@@ -655,9 +655,15 @@ Após clicar no botão, é exibida uma página web para o cliente inserir o cód
 
 #### 4.4 Histórico de atividades
 
-![]()
+Através da aplicação Web, o cliente tem acesso às atividades que realizou na aplicação.
 
-**
+![Página Web do histórico de atividades do cliente](https://github.com/D1ogoCS/Projeto-Final/blob/main/ultimasAtividadesWeb.png)
+
+*Página Web do histórico de atividades do cliente*
+
+#### 4.5 Gestão de contas
+
+Com a aplicação, o cliente tem acesso a várias informações sobre as suas contas bancárias, incluindo as últimas transações realizadas, o saldo disponível, os titulares da conta, entre outros.
 
 ![]()
 
