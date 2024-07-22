@@ -621,6 +621,7 @@ Quando o cliente acede à aplicação Web com as credenciais temporárias pela p
 *Página Web para alterar as credenciais de acesso à aplicação*
 
 Para alterar as credenciais de acesso à aplicação, o cliente tem de seguir algumas regras de segurança ao alterar o nome de utilizador e a palavra-passe. As regras aplicadas à alteração das credenciais são as seguintes:
+
 → O nome de utilizador tem de ser único, necessita de ter no mínimo 10 caracteres e pelo menos um caracter maiúsculo;
 
 → A palavra-passe necessita de ter no mínimo 10 caracteres e precisa de ter pelo menos um caractere especial e um caracter maiúsculo;
