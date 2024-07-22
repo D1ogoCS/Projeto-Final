@@ -123,8 +123,22 @@ A base de dados do sistema, contém um total de 26 tabelas que resultam da aplic
 
 - Tabela “Atividades”
 
+![Tabela “Atividades”](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaAtividades.png) 
+
+*Tabela “Atividades”*
+
 - Tabela "Clientes"
+
+![Tabela "Clientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaClientes.png) 
+
+*Tabela "Clientes"*
+
 - Tabela "Contas"
+
+![]() 
+
+**
+
 - Tabela "Credenciais"
 - Tabela "Gestores"
 - Tabela "HistoricoAtividadesClientes"
