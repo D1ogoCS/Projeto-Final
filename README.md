@@ -135,17 +135,28 @@ A base de dados do sistema, contém um total de 26 tabelas que resultam da aplic
 
 - Tabela "Contas"
 
-![]() 
+![Tabela "Contas"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaContas.png) 
 
-**
+*Tabela "Contas"*
 
 - Tabela "Credenciais"
+
+![Tabela "Credenciais"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaCredenciais.png) 
+
+*Tabela "Credenciais"*
+
 - Tabela "Gestores"
+
+![Tabela "Gestores"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaGestores.png) 
+
+*Tabela "Gestores"*
+
 - Tabela "HistoricoAtividadesClientes"
   
 ![Tabela "HistoricoAtividadesClientes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/historicoAtividadesClientes.png) 
 
 *Tabela "HistoricoAtividadesClientes"*
+
 
 - Tabela "HistoricoAtividades"
 
@@ -153,8 +164,12 @@ A base de dados do sistema, contém um total de 26 tabelas que resultam da aplic
 
 *Tabela "HistoricoAtividades"*
 
+
 - Tabela "Transacoes"
 
+![Tabela "Transacoes"](https://github.com/D1ogoCS/Projeto-Final/blob/main/tabelaTransacoes.png) 
+
+*Tabela "Transacoes"*
 
 #### 2.2 Medidas de segurança
 
