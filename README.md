@@ -665,20 +665,28 @@ Através da aplicação Web, o cliente tem acesso às atividades que realizou na
 
 Com a aplicação, o cliente tem acesso a várias informações sobre as suas contas bancárias, incluindo as últimas transações realizadas, o saldo disponível, os titulares da conta, entre outros.
 
-![]()
+![Página Web da gestão de contas](https://github.com/D1ogoCS/Projeto-Final/blob/main/contasWeb.png)
 
-**
+*Página Web da gestão de contas*
 
-![]()
+#### 4.6 Gestão de cartões
 
-**
+A aplicação Web permite que o cliente visualize os cartões bancários das suas contas.
 
-![]()
+![Página Web com informações dos cartões bancários](https://github.com/D1ogoCS/Projeto-Final/blob/main/cartoesWeb.png)
 
-**
+*Página Web com informações dos cartões bancários*
 
+#### 4.7 Transferência bancária
 
+O cliente através da aplicação Web pode efetuar uma transferência bancária.
 
+![Página Web para realizar uma transferência bancária](https://github.com/D1ogoCS/Projeto-Final/blob/main/transferenciaWeb.png)
 
+*Página Web para realizar uma transferência bancária*
 
+O cliente, por meio da lista de opções, pode escolher a conta da qual deseja debitar o dinheiro para a transferência. Após o preenchimento de todos os campos, é apenas necessário clicar no botão __Continuar__, que vai exibir uma página Web para confirmar a transferência.
 
+![Página Web de confirmação da transferência](https://github.com/D1ogoCS/Projeto-Final/blob/main/transferenciaWeb2.png)
+
+*Página Web da confirmação da transferência*
