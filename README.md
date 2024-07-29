@@ -333,7 +333,7 @@ Antes de apagar o documento, é verificado na base de dados se existe alguma ref
 
 É possivel alterar o número da conta bancária associada ao certificado e também resgatar unidades do certificado, imprimir os dados do certificado e visualizar os documentos associados ao mesmo.
 
-Para resgatar unidades do certificado, é necessario indicar a quantidade que o cliente pretende retirar do certificado. A quantia introduzida é adicionada à conta bancária que está associada ao certificado.
+Para resgatar unidades do certificado, é necessário indicar a quantidade que o cliente pretende retirar do certificado. A quantia introduzida é adicionada à conta bancária que está associada ao certificado.
 
 #### 3.8 Subscrever certificados
 
@@ -432,7 +432,7 @@ Para o gestor visualizar as atividades, necessita de escolher um intervalo de te
 
 É possivel modificar os titulares da conta, imprimir as informações, efetuar transações, associar cartões bancários, visualizar os movimentos de conta e ainda alterar o estado da conta.
 
-Para se adicionar um novo titular a uma conta bancária, é necessario introduzir o NIF do novo titular no campo “NIF do titular” (o novo titular já deve estar previamente registado no sistema) e de seguida clicar no botão __Adicionar__.
+Para se adicionar um novo titular a uma conta bancária, é necessário introduzir o NIF do novo titular no campo “NIF do titular” (o novo titular já deve estar previamente registado no sistema) e de seguida clicar no botão __Adicionar__.
 
 Quando um cliente deixa de ser titular de uma conta, um trigger é responsável por alterar a conta que está associada aos empréstimos e certificados do cliente que foi removido e que tinham essa mesma conta associada. Assim, os certificados e empréstimos do cliente ficam associados à primeira conta bancária que está registada e que o cliente possui.
 
@@ -440,7 +440,7 @@ Quando um cliente deixa de ser titular de uma conta, um trigger é responsável 
 
 Quando uma conta bancária é excluida do sistema (a conta nunca sai do sistema, é apenas alterado o valor do seu estado na base de dados), todos os cartões bancários associados a esta conta são desativados.
 
-Para se conseguir visualizar os movimentos bancários de uma conta, é necessario na secção “Transações” selecionar a partir de que data se deseja obter os movimentos bancários (mensal, anual ou personalizado).
+Para se conseguir visualizar os movimentos bancários de uma conta, é necessário na secção “Transações” selecionar a partir de que data se deseja obter os movimentos bancários (mensal, anual ou personalizado).
 O botão __Extrato mensal__ exibe todos os movimentos do mês atual do sistema, o botão __Extrato anual__ exibe todos os movimentos do ano atual do sistema e o botão __Pesquisar__ exibe todos os movimentos entre as datas selecionadas (a data inicial necessita de ser inferior à data final).
 
 ![Secção “Transações”](https://github.com/D1ogoCS/Projeto-Final/blob/main/seccaoTransacao.png)
@@ -457,7 +457,7 @@ Os movimentos bancários também podem ser impressos.
 
 *Excerto do impresso com os movimentos bancários (dados fictícios)*
 
-Para visualizar as informações de uma transação, é necessario de clicar no botão __Ver detalhes__ e de seguida, é exibida uma janela com as informações da transação pretendida.
+Para visualizar as informações de uma transação, é necessário de clicar no botão __Ver detalhes__ e de seguida, é exibida uma janela com as informações da transação pretendida.
 
 ![Janela com informações sobre o pagamento de uma prestação](https://github.com/D1ogoCS/Projeto-Final/blob/main/janelaTransacao.png)
 
@@ -477,7 +477,7 @@ Para visualizar as informações de uma transação, é necessario de clicar no 
 
 *Janela "Transação"*
 
-É necessario escolher qual é o tipo da transação, podendo ser um dos seguintes:
+É necessário escolher qual é o tipo da transação, podendo ser um dos seguintes:
 
 → Levantamento;
 
@@ -507,7 +507,7 @@ Depois de se clicar no botão __Confirmar__, para confirmar a transação, é po
 
 *Janela "Adicionar conta"*
 
-Para indicar os clientes que serão titulares da conta, é necessario inserir o NIF de cada titular no campo “NIF do titular” e de seguida, clicar no botão __Adicionar__.
+Para indicar os clientes que serão titulares da conta, é necessário inserir o NIF de cada titular no campo “NIF do titular” e de seguida, clicar no botão __Adicionar__.
 
 ![Os titulares da nova conta são exibidos na tabela](https://github.com/D1ogoCS/Projeto-Final/blob/main/titularesNovaConta.png)
 
@@ -529,7 +529,7 @@ Depois de indicar os titulares da nova conta bancária, é necessário especific
 Os botões quando são acionados, alteram o valor que está presente na coluna “estadoConta” da tabela “Contas”.
 
 Quando se clica no botão __Bloquear Conta__, a coluna “estadoConta” fica com o valor “Bloqueada”. Nesse estado, não é possível alterar os dados da conta, criar cartões bancários para a conta, realizar transações ou receber transferências bancárias. Apenas é possível visualizar os movimentos bancários da conta. 
-Para reverter esse estado, é necessario clicar no botão __Ativar Conta__, para alterar o valor da coluna “estadoConta” para “Ativa”.
+Para reverter esse estado, é necessário clicar no botão __Ativar Conta__, para alterar o valor da coluna “estadoConta” para “Ativa”.
 
 Através do botão __Apagar Conta__, é possivel fechar uma conta bancária. No entanto, a conta não é excluída do sistema, apenas o valor da coluna “estadoConta” é alterado para “Inativa”. Isso faz com que a conta nunca mais seja visível na aplicação, ou seja, é como se nunca tivesse existido. Por outro lado, as informações relacionadas à conta na base de dados permanecem visíveis.
 Quando uma conta bancária é excluida do sistema, todos os cartões bancários associados a esta conta são desativados.
