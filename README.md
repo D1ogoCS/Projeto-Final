@@ -81,6 +81,7 @@ Nota final: 19 valores.
 - C#
 - HTML
 - CSS
+- SQL
 - Windows Forms
 - ASP .NET
 - .NET Framework
